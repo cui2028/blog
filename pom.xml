@@ -42,6 +42,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>org.springframework.boot:spring-boot-stater:1.5.7.RELEASE</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
 
